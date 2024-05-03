@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h3>HOME</h3>
+        </div>
+
+        <div>
+            <h3>GUEST</h3>
+
+        </div>
+    </div>
+    <div id="score-container">
+        <div id="score-home">
+            <p class="home">0</p>
+        </div>
+        <div id="score-guest">
+            <p class="guest">0</p>
+        </div>
+    </div>
+    <div class="button-container">
+        <div class="home-btn">
+            <div class="btn-container">
+                <button class="plus" onclick="incrementOne()">+1</button>
+                <button class="plus" onclick="incrementTwo()">+2</button>
+                <button class="plus" onclick="incrementThree()">+3</button>
+            </div>
+        </div>
+        <div class="away-btn">
+            <div class="btn-container">
+                <button class="plus" onclick="gincrementOne()">+1</button>
+                <button class="plus" onclick="gincrementTwo()">+2</button>
+                <button class="plus" onclick="gincrementThree()">+3</button>
+            </div>
+        </div>
+    </div>
+    <div class="clearit">
+        <button class="clean" onclick="zero()">CLEAR</button>
+    </div>
+    <script src="index.js"></script>
+    <footer>
+        <p class="end">Portfolio project by Omer Ozturk</p>
+    </footer>
+</body>
+
+</html>
