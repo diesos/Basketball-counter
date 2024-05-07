@@ -1,42 +1,38 @@
-let count = 0;
-let count2 = 0;
+let scoreHome = 0;
+let scoreAway = 0;
 
-let home = document.querySelector(".home")
-let guest = document.querySelector(".guest")
+let homeEl = document.querySelector(".home")
+let awayEl = document.querySelector(".guest")
 
-console.log(home)
-console.log(guest)
-console.log(count)
-console.log(count2)
 
 function incrementOne() {
-	count += 1;
-	home.textContent = count;
+	scoreHome += 1;
+	homeEl.textContent = scoreHome;
 }
 function incrementTwo() {
-	count += 2;
-	home.textContent = count;
+	scoreHome += 2;
+	homeEl.textContent = scoreHome;
 }
 function incrementThree() {
-	count += 3;
-	home.textContent = count;
+	scoreHome += 3;
+	homeEl.textContent = scoreHome;
 }
-function gincrementOne() {
-	count2 += 1;
-	guest.textContent = count2
+function awayIncrementOne() {
+	scoreAway += 1;
+	awayEl.textContent = scoreAway
 }
-function gincrementTwo() {
-	count2 += 2;
-	guest.textContent = count2;
+function awayIncrementTwo() {
+	scoreAway += 2;
+	awayEl.textContent = scoreAway;
 }
-function gincrementThree() {
-	count2 += 3;
-	guest.textContent = count2;
+function awayIncrementThree() {
+	scoreAway += 3;
+	awayEl.textContent = scoreAway;
 }
 
-function zero() {
-	count = 0;
-	count2 = 0;
-	home.textContent = count;
-	guest.textContent = count2;
+function reset() {
+	scoreHome = 0;
+	scoreAway = 0;
+	homeEl.textContent = scoreHome;
+	awayEl.textContent = scoreAway;
 }

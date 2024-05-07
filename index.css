@@ -49,7 +49,7 @@ h3 {
     font-size: 13vw;
     margin: auto;
     animation: blink-animation 1s steps(5, start) infinite;
-    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) 3;
 }
 
 @keyframes blink-animation {
@@ -83,7 +83,7 @@ h3 {
 
 }
 
-.clearit {
+.reset {
     display: flex;
     justify-content: center;
 }
